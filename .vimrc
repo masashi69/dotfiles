@@ -21,7 +21,6 @@ highlight NonText ctermbg=none
 highlight LineNr ctermbg=none
 highlight Folded ctermbg=none
 highlight EndOfBuffer ctermbg=none
-"set background=dark
 
 set encoding=utf-8
 
@@ -29,7 +28,6 @@ set wildmenu wildmode=list:longest,full
 
 set history=10000
 
-set background=dark
 hi IndentGuidesOdd  ctermbg=white
 hi IndentGuidesEven ctermbg=lightgrey
 set ts=4 sw=4 et
