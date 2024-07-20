@@ -40,7 +40,7 @@ conky.config = {
     use_xft = true,
     font = 'RictyDiminished-Regular:size=11',
     gap_x = 0,
-    gap_y = 33,
+    gap_y = 50,
     minimum_height = 5,
     minimum_width = 5,
     net_avg_samples = 2,
