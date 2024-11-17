@@ -90,7 +90,7 @@ ${color lightgrey} ${top name 4} ${top pid 4} ${top cpu 4} ${top mem 4}
 ${color lightgrey} ${top name 5} ${top pid 5} ${top cpu 5} ${top mem 5}
 $hr
 ${color grey}Weather
-${texeci 43200 python3 scripts/weather.py}
+${texeci 43200 scraping/bin/python scripts/weather.py}
 $hr
 ${color grey}Todo
 ${texeci 3600 todo list | awk -F "202" '{print $1}'}
