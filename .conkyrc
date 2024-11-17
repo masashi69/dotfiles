@@ -93,7 +93,7 @@ ${color grey}Weather
 ${texeci 43200 python3 scripts/weather.py}
 $hr
 ${color grey}Todo
-${texeci 3600 todo list | awk -F "2023" '{print $1}'}
+${texeci 3600 todo list | awk -F "202" '{print $1}'}
 $hr
 ${color grey}今月の支出(cash)
 ￥${texeci 86400 bash scripts/firefly_sum.sh}
